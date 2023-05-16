@@ -1,0 +1,18 @@
+dns:
+  enable: true
+  ipv6: false
+  default-nameserver:
+    - system
+  nameserver:
+    - 'https://1.1.1.1/dns-query'
+    - 'https://45.11.45.11/dns-query'
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+    - '+.lan'
+    # Stun Services
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+    # Bilibili CDN
+    - '+.mcdn.bilivideo.cn'
