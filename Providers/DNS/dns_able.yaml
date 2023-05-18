@@ -1,0 +1,12 @@
+payload:
+  # DOH domain name data sourced from Adguard DNS
+  - '+.alidns.com'
+  - '+.doh.pub'
+  - 'dns.cfiec.net'
+  - 'doh.360.cn'
+  - 'doh.opendns.com'
+  - '+.canadianshield.cira.ca'
+  - 'dns-doh.dnsforfamily.com'
+  - 'odvr.nic.cz'
+  - 'public.dns.iij.jp'
+  - 'kaitain.restena.lu'
