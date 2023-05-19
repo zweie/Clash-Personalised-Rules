@@ -1,5 +1,7 @@
 payload:
   # DOH domain name data sourced from Adguard DNS
+  # https://adguard-dns.io/kb/zh-CN/general/dns-providers/
+  # The following DNS has been tested to work in my network environment
   - '+.alidns.com'
   - '+.doh.pub'
   - 'dns.cfiec.net'
