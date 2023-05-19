@@ -1,6 +1,7 @@
 payload:
   # DOH domain name data sourced from Adguard DNS
   # https://adguard-dns.io/kb/zh-CN/general/dns-providers/
+  # The following DNS has been tested to connect, at least in my case.
   - '+.adguard-dns.com'
   - 'doh.cleanbrowsing.org'
   - 'dns.google'
