@@ -1,0 +1,12 @@
+payload:
+  # archlinuxcn
+  - 'repo.archlinuxcn.org'
+  - 'mirrors.xtom.hk'
+  - 'mirrors.xtom.us'
+  - 'mirrors.xtom.nl'
+  - 'mirrors.xtom.de'
+  - 'mirrors.xtom.ee'
+  - 'mirrors.xtom.jp'
+  - 'mirrors.xtom.au'
+  - '+.python.org'
+  - 'download.nvidia.com'
