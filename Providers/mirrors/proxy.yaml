@@ -8,5 +8,19 @@ payload:
   - 'mirrors.xtom.ee'
   - 'mirrors.xtom.jp'
   - 'mirrors.xtom.au'
+  # pip
   - '+.python.org'
+  # nvidia driver
   - 'download.nvidia.com'
+  # yarn
+  - 'registry.yarnpkg.com'
+  # npm
+  - '+.npmjs.org'
+  # debian security repo
+  - 'security.debian.org'
+  # msys2
+  - 'repo.msys2.org'
+  # sourceforge
+  - '+.sourceforge.net'
+  # anaconda
+  - 'repo.anaconda.com'
