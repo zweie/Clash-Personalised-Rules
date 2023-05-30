@@ -1,7 +1,7 @@
 name: Rule Provider
 desc: Rule Provider
 
-rule-providers:
+rule-providers: #!replace
   reject:
     type: http
     behavior: domain
