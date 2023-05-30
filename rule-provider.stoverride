@@ -509,3 +509,31 @@ rule-providers:
     url: "https://ghproxy.net/https://raw.githubusercontent.com/zweie/QuantumultX-mix-modify/hidden/blacklist.yaml"
     path: "./ruleset/Tracker_Black.yaml"
     interval: 86400
+
+  DOH_Direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.staticaly.com/gh/zweie/Clash-Personalised-Rules/rules/Providers/DNS/doh_able.yaml"
+    path: "./ruleset/DOH_Direct.yaml"
+    interval: 86400
+
+  DOH_Proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.staticaly.com/gh/zweie/Clash-Personalised-Rules/rules/Providers/DNS/doh_unable.yaml"
+    path: "./ruleset/DOH_Proxy.yaml"
+    interval: 86400
+
+  Mirrors_Direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.staticaly.com/gh/zweie/Clash-Personalised-Rules/rules/Providers/mirrors/direct.yaml"
+    path: "./ruleset/Mirrors_Direct.yaml"
+    interval: 86400
+
+  Mirrors_Proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.staticaly.com/gh/zweie/Clash-Personalised-Rules/rules/Providers/mirrors/proxy.yaml"
+    path: "./ruleset/Mirrors_Proxy.yaml"
+    interval: 86400
