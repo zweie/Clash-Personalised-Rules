@@ -2,10 +2,10 @@ dns:
   enable: true
   ipv6: false
   default-nameserver:
-    - system
+    - 45.11.45.11
   nameserver:
-    - 'https://1.1.1.1/dns-query'
-    - 'https://45.11.45.11/dns-query'
+    # - https://dns.alidns.com/dns-query
+    - https://doh.opendns.com/dns-query
   fake-ip-range: 198.18.0.1/16
   fake-ip-filter:
     - '+.lan'
@@ -14,5 +14,3 @@ dns:
     - '+.stun.*.*.*'
     - '+.stun.*.*.*.*'
     - '+.stun.*.*.*.*.*'
-    # Bilibili CDN
-    - '+.mcdn.bilivideo.cn'
