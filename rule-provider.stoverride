@@ -1,3 +1,6 @@
+name: Rule Provider
+desc: Rule Provider
+
 rule-providers:
   reject:
     type: http
