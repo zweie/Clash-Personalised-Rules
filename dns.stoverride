@@ -2,15 +2,10 @@ name: DNS
 desc: DNS
 
 dns:
-  enable: true
-  ipv6: false
-  default-nameserver:
-    - 45.11.45.11
-  nameserver:
+  nameserver: #!replace
     # - https://dns.alidns.com/dns-query
     - https://doh.opendns.com/dns-query
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
+  fake-ip-filter: #!replace
     - '+.lan'
     # Stun Services
     - '+.stun.*.*'
