@@ -1,14 +1,14 @@
 name: 规则组
 desc: 规则组
 
-url-test: &url-test
+url-test: &url-test #!replace
   type: url-test
   url: 'https://cp.cloudflare.com/generate_204'
   # url: 'https://www.v2ex.com/generate_204'
   interval: 300
   tolerance: 150
 
-proxy-groups:
+proxy-groups: #!replace
   - name: 节点选择
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
     type: select
