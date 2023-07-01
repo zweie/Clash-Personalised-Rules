@@ -544,6 +544,6 @@ rule-providers: #!replace
   anti-AD:
     type: http
     behavior: domain
-    url: "https://cdn.staticaly.com/gh/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+    url: "https://ghproxy.net/https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
     path: "./ruleset/anti-AD.yaml"
     interval: 86400
