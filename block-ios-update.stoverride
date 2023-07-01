@@ -3,7 +3,7 @@ desc: 屏蔽IOS更新
 
 rules:
     - DOMAIN,ns.itunes.apple.com,REJECT
-    - DOMAIN,appldnld..apple.com,REJECT
+    - DOMAIN,appldnld.apple.com,REJECT
     - DOMAIN,mesu.apple.com,REJECT
     - DOMAIN,xp.apple.com,REJECT
     - DOMAIN,gdmf.apple.com,REJECT
