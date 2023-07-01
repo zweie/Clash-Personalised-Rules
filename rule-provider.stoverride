@@ -540,3 +540,10 @@ rule-providers: #!replace
     url: "https://cdn.staticaly.com/gh/zweie/Clash-Personalised-Rules/rules/Providers/mirrors/proxy.yaml"
     path: "./ruleset/Mirrors_Proxy.yaml"
     interval: 86400
+
+  anti-AD:
+    type: http
+    behavior: domain
+    url: "https://cdn.staticaly.com/gh/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+    path: "./ruleset/anti-AD.yaml"
+    interval: 86400
