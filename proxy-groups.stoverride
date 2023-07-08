@@ -231,14 +231,14 @@ proxy-groups: #!replace
   - name: 港台节点
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
     <<: *url-test
-    lazy: false
+    lazy: true
     use:
       *proxy-use
     filter: '(港|HK|Hong Kong|台|台灣|新北|彰化|TW|Taiwan)'
   - name: 香港节点
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HK.png
     <<: *url-test
-    lazy: false
+    lazy: true
     use:
       *proxy-use
     filter: '(港|HK|Hong Kong)'
@@ -259,7 +259,7 @@ proxy-groups: #!replace
   - name: 台湾节点
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TW.png
     <<: *url-test
-    lazy: false
+    lazy: true
     use:
       *proxy-use
     filter: '(台|台灣|新北|彰化|TW|Taiwan)'
