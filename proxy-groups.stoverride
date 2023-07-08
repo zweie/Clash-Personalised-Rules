@@ -86,6 +86,7 @@ proxy-groups: #!replace
     icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Magic.png
     type: select
     proxies:
+      - 港台节点
       - 香港节点
       - 美国节点
       - 台湾节点
