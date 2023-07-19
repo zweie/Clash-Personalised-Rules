@@ -1,0 +1,11 @@
+payload:
+  - DOMAIN,profile.accounts.firefox.com
+  - DOMAIN,time.is
+  - DOMAIN,wttr.in
+  - DOMAIN,ping.nextdns.io
+  - DOMAIN,ba.dn.nexoncdn.co.kr
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,qweather.com
+  - DOMAIN-SUFFIX,infini-cloud.net
+  - DOMAIN-SUFFIX,hamibot.com
+  - DOMAIN-SUFFIX,yubico.com
