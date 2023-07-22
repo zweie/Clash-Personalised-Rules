@@ -4,11 +4,12 @@ payload:
   - DOMAIN,sb.adtidy.org
   - DOMAIN,ping.nextdns.io
   - DOMAIN,ba.dn.nexoncdn.co.kr
-  - DOMAIN,push.services.mozilla.com
   - DOMAIN,profile.accounts.firefox.com
-  - DOMAIN-SUFFIX,msftconnecttest.com
-  - DOMAIN-SUFFIX,qweather.com
-  - DOMAIN-SUFFIX,infini-cloud.net
-  - DOMAIN-SUFFIX,hamibot.com
   - DOMAIN-SUFFIX,yubico.com
-  - DOMAIN-KEYWORD,kaspersky.com
+  - DOMAIN-SUFFIX,hamibot.com
+  - DOMAIN-SUFFIX,qweather.com
+  - DOMAIN-SUFFIX,kaspersky.com
+  - DOMAIN-SUFFIX,infini-cloud.net
+  - DOMAIN-SUFFIX,kaspersky-labs.com
+  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,services.mozilla.com
