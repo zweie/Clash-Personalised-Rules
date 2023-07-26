@@ -2,36 +2,19 @@ name: 额外的规则
 desc: 后续增加的规则
 
 rules:
-  - DOMAIN,time.is,DIRECT
-  - DOMAIN,wttr.in,DIRECT
-  - DOMAIN,ping.nextdns.io,DIRECT
-  - DOMAIN,profile.accounts.firefox.com,DIRECT
-  - DOMAIN-SUFFIX,hamibot.com,DIRECT
-  - DOMAIN-SUFFIX,qweather.com,DIRECT
-  - DOMAIN-SUFFIX,infini-cloud.net,DIRECT
-  - DOMAIN-SUFFIX,msftconnecttest.com,DIRECT
+  - "DOMAIN,dl.google.com,节点选择"
   - "DOMAIN,itorrents.org,海外负载均衡"
   - "DOMAIN,rutracker.org,海外负载均衡"
-  - "DOMAIN,storage1.picacomic.com,港台负载均衡"
   - "DOMAIN,passport-client.bitcomet.com,海外负载均衡"
   - "DOMAIN-SUFFIX,1lib.at,节点选择"
   - "DOMAIN-SUFFIX,dmm.co.jp,日本节点"
   - "DOMAIN-SUFFIX,proton.me,海外最速"
   - "DOMAIN-SUFFIX,vercel.app,自动选择"
+  - "DOMAIN-SUFFIX,quanben.io,海外最速"
   - "DOMAIN-SUFFIX,clmclm.com,海外最速"
   - "DOMAIN-SUFFIX,tutanota.com,海外最速"
   - "DOMAIN-SUFFIX,wikawika.xyz,海外最速"
   - "DOMAIN-SUFFIX,xytalk.net,海外负载均衡"
   - "DOMAIN-SUFFIX,fileshot.net,海外负载均衡"
-  # 拦截
-  - DOMAIN,sm2.doh.pub,REJECT,no-resolve
-  - DOMAIN,dns.cfiec.net,REJECT,no-resolve
-  - DOMAIN,dns.weixin.qq.com.cn,REJECT,no-resolve
-  - DOMAIN-SUFFIX,xuexi616.com,REJECT,no-resolve
-  - "IP-CIDR,114.114.114.110/32,REJECT"
-  - "IP-CIDR,114.114.114.114/32,REJECT"
-  - "IP-CIDR,114.114.114.119/32,REJECT"
-  - "IP-CIDR,114.114.115.110/32,REJECT"
-  - "IP-CIDR,114.114.115.115/32,REJECT"
-  - "IP-CIDR,114.114.115.119/32,REJECT"
-  - "IP-CIDR,180.76.76.76/32,REJECT"
+  - "DOMAIN-SUFFIX,quanben.io,海外最速"
+  - "DOMAIN-SUFFIX,clmclm.com,海外最速"
