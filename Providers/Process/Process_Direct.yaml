@@ -1,0 +1,36 @@
+payload:
+    # Windows
+    - PROCESS-NAME,adb.exe
+    - PROCESS-NAME,BaiduPCS-Go.exe
+    - PROCESS-NAME,clash.exe
+    - PROCESS-NAME,cloudflared.exe
+    - PROCESS-NAME,cloudpan189-go.exe
+    - PROCESS-NAME,explorer.exe
+    - PROCESS-NAME,fastboot.exe
+    - PROCESS-NAME,GTASuperESC.exe
+    - PROCESS-NAME,Icalingua++.exe
+    - PROCESS-NAME,KeePass.exe
+    - PROCESS-NAME,kopia.exe
+    - PROCESS-NAME,Map.exe
+    - PROCESS-NAME,OneDrive.exe
+    - PROCESS-NAME,rclone.exe
+    - PROCESS-NAME,steam.exe
+    - PROCESS-NAME,steamcommunity_302.caddy
+    - PROCESS-NAME,steamcommunity_302.exe
+    - PROCESS-NAME,svchost.exe
+    - PROCESS-NAME,UsbEAm Hosts Editor.exe
+    - PROCESS-NAME,v2ray.exe
+    - PROCESS-NAME,WindTerm.exe
+    - PROCESS-NAME,wxray.exe
+    - PROCESS-NAME,xray.exe
+    - PROCESS-NAME,word.exe
+    - PROCESS-NAME,syncthing.exe
+    - PROCESS-NAME,zerotier-one_x64.exe
+    - PROCESS-NAME,localsend_app.exe
+    # Linux
+    - PROCESS-NAME,syncthing
+    - PROCESS-NAME,kdeconnectd
+    - PROCESS-NAME,onedrive
+    - PROCESS-NAME,chronyd
+    - PROCESS-NAME,adguardhome
+    - PROCESS-NAME,rclone
