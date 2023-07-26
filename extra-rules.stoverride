@@ -16,5 +16,3 @@ rules:
   - "DOMAIN-SUFFIX,wikawika.xyz,海外最速"
   - "DOMAIN-SUFFIX,xytalk.net,海外负载均衡"
   - "DOMAIN-SUFFIX,fileshot.net,海外负载均衡"
-  - "DOMAIN-SUFFIX,quanben.io,海外最速"
-  - "DOMAIN-SUFFIX,clmclm.com,海外最速"
