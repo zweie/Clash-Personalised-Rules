@@ -8,6 +8,8 @@ payload:
   - DOMAIN,profile.accounts.firefox.com
   - DOMAIN-SUFFIX,yubico.com
   - DOMAIN-SUFFIX,hamibot.com
+  - DOMAIN-SUFFIX,baozimh.com
+  - DOMAIN-SUFFIX,webmota.com
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,infini-cloud.net
