@@ -4,7 +4,6 @@ payload:
   - DOMAIN,sb.adtidy.org
   - DOMAIN,ping.nextdns.io
   - DOMAIN,ocsp.globalsign.com
-  - DOMAIN,ba.dn.nexoncdn.co.kr
   - DOMAIN,profile.accounts.firefox.com
   - DOMAIN-SUFFIX,yubico.com
   - DOMAIN-SUFFIX,hamibot.com
