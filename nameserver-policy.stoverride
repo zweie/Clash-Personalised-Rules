@@ -1,0 +1,18 @@
+name: nameserver policy
+desc: nameserver policy
+
+dns:
+    nameserver-policy:
+        +.cn            : https://223.5.5.5/dns-query
+        +.jd.com        : https://223.5.5.5/dns-query
+        +.taobao.com    : https://223.5.5.5/dns-query
+        +.apple.com     : https://223.5.5.5/dns-query
+        +.ele.me        : https://223.5.5.5/dns-query
+        +.bilibili.com  : https://223.5.5.5/dns-query
+        +.mozilla.org   : https://223.5.5.5/dns-query
+        +.coolapk.com   : https://223.5.5.5/dns-query
+        +.digicert.com  : https://223.5.5.5/dns-query
+        +.aliyuncs.com  : https://223.5.5.5/dns-query
+        +.alipay.com  : https://223.5.5.5/dns-query
+        +.tencent.com     : https://1.12.12.12/dns-query
+        +.qq.com        : https://1.12.12.12/dns-query
