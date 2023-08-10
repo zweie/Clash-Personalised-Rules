@@ -2,26 +2,11 @@ payload:
   - DOMAIN,sm2.doh.pub
   - DOMAIN,dns.cfiec.net
   - DOMAIN,dns.weixin.qq.com.cn
-  - DOMAIN,tracker2.itzmx.com
-  - DOMAIN,tracker3.itzmx.com
-  - DOMAIN,tracker4.itzmx.com
-  - DOMAIN,t2.popgo.org
-  - DOMAIN,404.qq.com
-  - DOMAIN,ipv6.govt.hu
-  - DOMAIN,tracker.computel.fr
-  - DOMAIN,moeweb.pw
-  - DOMAIN,buny.uk
-  - DOMAIN,00.xxtor.com
-  - DOMAIN,i-p-v-6.tk
-  - DOMAIN,track.plop.pm
-  - DOMAIN,ipv6.1337.cx
-  - DOMAIN,jp.moeweb.pw
-  - DOMAIN,fireworks.eu.org
-  - DOMAIN,open-v6.demonoid.ch
-  - DOMAIN,tr.abir.ga
   - DOMAIN,link.m.163.com
-  - DOMAIN-SUFFIX,xuexi616.com
   - DOMAIN-SUFFIX,abiir.top
+  - DOMAIN-SUFFIX,mi-img.com
+  - DOMAIN-SUFFIX,duokan.com
+  - DOMAIN-SUFFIX,xuexi616.com
   - IP-CIDR,114.114.114.110/32
   - IP-CIDR,114.114.114.114/32
   - IP-CIDR,114.114.114.119/32
