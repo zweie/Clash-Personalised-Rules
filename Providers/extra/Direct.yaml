@@ -1,6 +1,7 @@
 payload:
   - DOMAIN,time.is
   - DOMAIN,wttr.in
+  - DOMAIN,coda.world
   - DOMAIN,sb.adtidy.org
   - DOMAIN,ping.nextdns.io
   - DOMAIN,ocsp.globalsign.com
@@ -13,6 +14,7 @@ payload:
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,infini-cloud.net
   - DOMAIN-SUFFIX,kaspersky-labs.com
+  - DOMAIN-SUFFIX,openweathermap.org
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,services.mozilla.com
   - DOMAIN-SUFFIX,nixos.org
