@@ -13,6 +13,8 @@ payload:
   - DOMAIN-SUFFIX,hamibot.com
   - DOMAIN-SUFFIX,baozimh.com
   - DOMAIN-SUFFIX,webmota.com
+  - DOMAIN-SUFFIX,grctech.com
+  - DOMAIN-SUFFIX,opnsense.org
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,syncthing.com
