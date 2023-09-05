@@ -3,6 +3,7 @@ payload:
     - PROCESS-NAME,adb.exe
     - PROCESS-NAME,BaiduPCS-Go.exe
     - PROCESS-NAME,BitComet_x64.exe
+    - PROCESS-NAME,BitComet.exe
     - PROCESS-NAME,clash.exe
     - PROCESS-NAME,cloudflared.exe
     - PROCESS-NAME,cloudpan189-go.exe
