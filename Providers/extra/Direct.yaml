@@ -2,12 +2,14 @@ payload:
   - DOMAIN,time.is
   - DOMAIN,wttr.in
   - DOMAIN,coda.world
+  - DOMAIN,foxirj.com
   - DOMAIN,mangabz.com
   - DOMAIN,sb.adtidy.org
   - DOMAIN,ping.nextdns.io
   - DOMAIN,ocsp.globalsign.com
   - DOMAIN,support.mozilla.org
   - DOMAIN,profile.accounts.firefox.com
+  - DOMAIN,vscode-sync.trafficmanager.net
   - DOMAIN-SUFFIX,grc.com
   - DOMAIN-SUFFIX,pixiv.re
   - DOMAIN-SUFFIX,gentoo.org
@@ -16,11 +18,11 @@ payload:
   - DOMAIN-SUFFIX,baozimh.com
   - DOMAIN-SUFFIX,webmota.com
   - DOMAIN-SUFFIX,grctech.com
-  - DOMAIN-SUFFIX,opnsense.org
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,syncthing.com
   - DOMAIN-SUFFIX,pixeldrain.com
+  - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,infini-cloud.net
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,openweathermap.org
