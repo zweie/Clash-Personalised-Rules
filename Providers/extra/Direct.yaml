@@ -19,6 +19,7 @@ payload:
   - DOMAIN-SUFFIX,webmota.com
   - DOMAIN-SUFFIX,grctech.com
   - DOMAIN-SUFFIX,qweather.com
+  - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,syncthing.com
   - DOMAIN-SUFFIX,pixeldrain.com
