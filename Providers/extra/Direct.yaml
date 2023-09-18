@@ -1,33 +1,33 @@
 payload:
-  - DOMAIN-SUFFIX,time.is
-  - DOMAIN-SUFFIX,wttr.in
+  - DOMAIN,time.is
+  - DOMAIN,wttr.in
+  - DOMAIN,coda.world
+  - DOMAIN,foxirj.com
+  - DOMAIN,mangabz.com
+  - DOMAIN,sb.adtidy.org
+  - DOMAIN,ping.nextdns.io
+  - DOMAIN,ocsp.globalsign.com
+  - DOMAIN,support.mozilla.org
+  - DOMAIN,profile.accounts.firefox.com
+  - DOMAIN,vscode-sync.trafficmanager.net
   - DOMAIN-SUFFIX,grc.com
   - DOMAIN-SUFFIX,pixiv.re
-  - DOMAIN-SUFFIX,nixos.org
   - DOMAIN-SUFFIX,gentoo.org
-  - DOMAIN-SUFFIX,coda.world
-  - DOMAIN-SUFFIX,foxirj.com
   - DOMAIN-SUFFIX,yubico.com
   - DOMAIN-SUFFIX,hamibot.com
   - DOMAIN-SUFFIX,baozimh.com
   - DOMAIN-SUFFIX,webmota.com
   - DOMAIN-SUFFIX,grctech.com
   - DOMAIN-SUFFIX,yjs-cdn.com
-  - DOMAIN-SUFFIX,mangabz.com
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,msftncsi.com
-  - DOMAIN-SUFFIX,sb.adtidy.org
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,syncthing.com
   - DOMAIN-SUFFIX,pixeldrain.com
-  - DOMAIN-SUFFIX,ping.nextdns.io
   - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,infini-cloud.net
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,openweathermap.org
-  - DOMAIN-SUFFIX,support.mozilla.org
-  - DOMAIN-SUFFIX,ocsp.globalsign.com
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,services.mozilla.com
-  - DOMAIN-SUFFIX,profile.accounts.firefox.com
-  - DOMAIN-SUFFIX,vscode-sync.trafficmanager.net
+  - DOMAIN-SUFFIX,nixos.org
