@@ -1,5 +1,5 @@
-name: nameserver policy
-desc: nameserver policy
+name: 域名解析策略
+desc: 域名解析策略
 
 dns:
     nameserver-policy:
