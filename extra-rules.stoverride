@@ -5,6 +5,7 @@ rules:
   - "DOMAIN,dl.google.com,节点选择"
   - "DOMAIN,itorrents.org,海外负载均衡"
   - "DOMAIN,rutracker.org,海外负载均衡"
+  - "DOMAIN,app-measurement.com,碧蓝档案"
   - "DOMAIN,passport-client.bitcomet.com,海外负载均衡"
   - "DOMAIN-SUFFIX,1lib.at,节点选择"
   - "DOMAIN-SUFFIX,dmm.co.jp,日本节点"
@@ -15,4 +16,5 @@ rules:
   - "DOMAIN-SUFFIX,tutanota.com,海外最速"
   - "DOMAIN-SUFFIX,wikawika.xyz,海外最速"
   - "DOMAIN-SUFFIX,xytalk.net,海外负载均衡"
+  - "DOMAIN-SUFFIX,cloudfront.net,碧蓝档案"
   - "DOMAIN-SUFFIX,fileshot.net,海外负载均衡"
