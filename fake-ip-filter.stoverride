@@ -1,0 +1,21 @@
+name: Fake-IP-filter
+desc: 补充Fake-IP 过滤
+
+dns:
+    fake-ip-filter:
+        - '+.cn'
+        - '+.jd.com'
+        - '+.apple.com'
+        - '+.ele.me'
+        - '+.bilibili.com'
+        - '+.bilivideo.com'
+        - '+.biliapi.net'
+        - '+.mozilla.org'
+        - '+.coolapk.com'
+        - '+.digicert.com'
+        - '+.aliyuncs.com'
+        - '+.taobao.com'
+        - '+.alipay.com'
+        - '+.tencent.com'
+        - '+.qq.com'
+        - '+.zepp.com'
