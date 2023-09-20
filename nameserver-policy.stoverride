@@ -21,5 +21,5 @@ dns:
         '+.tencent.com'   : 'https://1.12.12.12/dns-query'
         '+.coolapk.com'   : 'https://1.12.12.12/dns-query'
         '+.zepp.com'      : 'https://1.12.12.12/dns-query'
-        '+.pdd.pic.com'   : 'https://1.12.12.12/dns-query'
+        '+.pddpic.com'   : 'https://1.12.12.12/dns-query'
         '+.pinduoduo.com' : 'https://1.12.12.12/dns-query'
