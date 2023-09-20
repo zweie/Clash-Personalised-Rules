@@ -58,3 +58,6 @@ payload:
   - 'pypi.sdutlinux.org'
   - 'vscode.cdn.azure.cn'
   - 'aur.archlinux.org'
+  - 'archlinux.cs.nycu.tw'
+  - 'asia.mirror.pkgbuild.com'
+  - 'mirror.archlinux.tw'
