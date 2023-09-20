@@ -11,6 +11,7 @@ dns:
         - '+.aliyuncs.com'
         - '+.taobao.com'
         - '+.alipay.com'
+        - '+.hdslb.com'
         - '+.bilibili.com'
         - '+.bilivideo.com'
         - '+.biliapi.net'
