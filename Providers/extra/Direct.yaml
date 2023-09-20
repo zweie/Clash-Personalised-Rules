@@ -12,6 +12,7 @@ payload:
   - DOMAIN,vscode-sync.trafficmanager.net
   - DOMAIN-SUFFIX,grc.com
   - DOMAIN-SUFFIX,pixiv.re
+  - DOMAIN-SUFFIX,ssavr.com
   - DOMAIN-SUFFIX,gentoo.org
   - DOMAIN-SUFFIX,yubico.com
   - DOMAIN-SUFFIX,hamibot.com
