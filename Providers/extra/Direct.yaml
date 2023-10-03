@@ -25,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,syncthing.com
   - DOMAIN-SUFFIX,pixeldrain.com
+  - DOMAIN-SUFFIX,libtorrent.org
   - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,infini-cloud.net
   - DOMAIN-SUFFIX,kaspersky-labs.com
