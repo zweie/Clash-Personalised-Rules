@@ -13,7 +13,7 @@ rule-providers: #!replace
   anti-AD:
     type: http
     behavior: domain
-    url: "https://cdn.staticaly.com/gh/privacy-protection-tools/anti-AD/master/anti-ad-clash.yaml"
+    url: "https://anti-ad.net/clash.yaml"
     path: "./ruleset/AD/anti-AD.yaml"
     interval: 86400
   
@@ -178,13 +178,6 @@ rule-providers: #!replace
     path: "./ruleset/Bahamut/Bahamut-ACL4SSR.yaml"
     interval: 86400
   
-  Bahamut(By lhie1):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Media/Bahamut.yaml"
-    path: "./ruleset/Bahamut/Bahamut-lhie1.yaml"
-    interval: 86400
-  
   ProxyMedia:
     type: http
     behavior: classical
@@ -307,7 +300,7 @@ rule-providers: #!replace
   applications:
     type: http
     behavior: classical
-    url: "https://cdn.staticaly.com/gh/Loyalsoldier/clash-rules/release/applications.txt"
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
     path: ./ruleset/applications.yaml
     interval: 86400
   
@@ -433,6 +426,6 @@ rule-providers: #!replace
   Process-Direct:
     type: http
     behavior: classical
-    url: "https://raw.kgithub.com/zweie/Clash-Personalised-Rules/rules/Providers/Process/Process_Direct.yaml"
+    url: "https://gcore.jsdelivr.net/gh/zweie/Clash-Personalised-Rules@rules/Providers/Process/Process_Direct.yaml"
     path: "./ruleset/Process/Process_Direct.yaml"
     interval: 86400
