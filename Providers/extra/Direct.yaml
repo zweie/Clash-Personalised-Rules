@@ -23,7 +23,7 @@ payload:
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,kaspersky.com
-  - DOMAIN-SUFFIX,syncthing.com
+  - DOMAIN-SUFFIX,syncthing.net
   - DOMAIN-SUFFIX,pixeldrain.com
   - DOMAIN-SUFFIX,libtorrent.org
   - DOMAIN-SUFFIX,qbittorrent.org
