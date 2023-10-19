@@ -36,3 +36,6 @@ dns:
         '+.pddpic.com'                : 'https://1.12.12.12/dns-query'
         '+.pinduoduo.com'             : 'https://1.12.12.12/dns-query'
         '+.fj96336.com'               : 'https://1.12.12.12/dns-query'
+        '+.cpatrk.net'                : 'https://1.12.12.12/dns-query'
+        '+.manmanbuy.com'             : 'https://1.12.12.12/dns-query'
+        '+.jpush.io'                  : 'https://1.12.12.12/dns-query'
