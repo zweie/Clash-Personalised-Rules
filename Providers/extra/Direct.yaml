@@ -20,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,webmota.com
   - DOMAIN-SUFFIX,grctech.com
   - DOMAIN-SUFFIX,yjs-cdn.com
+  - DOMAIN-SUFFIX,crowdsec.net
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,kaspersky.com

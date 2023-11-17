@@ -31,7 +31,7 @@ payload:
   - 'blitz.ahadns.com'
   - '+.ahadns.net'
   - 'doh.dnslify.com'
-  - '+.dns.nextdns.io'
+  - '+.nextdns.io'
   - 'basic.rethinkdns.com'
   - '+.controld.com'
   - '+.doh.mullvad.net'
