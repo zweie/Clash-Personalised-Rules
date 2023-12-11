@@ -3,6 +3,8 @@ payload:
   - DOMAIN,dns.cfiec.net
   - DOMAIN,dns.weixin.qq.com.cn
   - DOMAIN,link.m.163.com
+  - DOMAIN,datapipeline.logitech.io
+  - DOMAIN,updates.ghub.logitechg.com
   - DOMAIN-SUFFIX,abiir.top
   - DOMAIN-SUFFIX,mi-img.com
   - DOMAIN-SUFFIX,duokan.com
