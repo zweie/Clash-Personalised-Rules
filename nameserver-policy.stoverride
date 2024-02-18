@@ -1,10 +1,11 @@
 name: 域名解析策略
-desc: 域名解析策略
+desc: 2024/02/18
 
 dns:
     nameserver-policy:
         '+.cn'                        : 'https://1.12.12.12/dns-query'
         '+.apple.com'                 : 'https://1.12.12.12/dns-query'
+        '+.cdn-apple.com'             : 'https://1.12.12.12/dns-query'
         '+.qtlcdn.com'                : 'https://1.12.12.12/dns-query'
         '+.mozilla.org'               : 'https://1.12.12.12/dns-query'
         '+.digicert.com'              : 'https://1.12.12.12/dns-query'

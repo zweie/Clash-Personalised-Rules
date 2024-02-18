@@ -1,10 +1,11 @@
 name: Fake-IP-filter
-desc: 补充Fake-IP 过滤
+desc: 2024/02/18
 
 dns:
     fake-ip-filter:
         - '+.cn'
         - '+.apple.com'
+        - '+.cdn-apple.com'
         - '+.qtlcdn.com'
         - '+.mozilla.org'
         - '+.digicert.com'
