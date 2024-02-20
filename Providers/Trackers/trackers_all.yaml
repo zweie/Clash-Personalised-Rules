@@ -1,6 +1,5 @@
 payload:
 
-    - '+.www.peckservers.com'
     - '+.00.mercax.com'
     - '+.00.xxtor.com'
     - '+.0123456789nonexistent.com'
@@ -123,6 +122,7 @@ payload:
     - '+.fosstorrents.com'
     - '+.free.publictracker.xyz'
     - '+.freedom.1776.ga'
+    - '+.freedomalternative.com'
     - '+.frp.v2fy.com'
     - '+.ftp.pet'
     - '+.fxtt.ru'
