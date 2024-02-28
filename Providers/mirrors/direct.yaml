@@ -1,5 +1,7 @@
 payload:
   - '+.jsdelivr.net'
+  - 'jsdelivr.b-cdn.net'
+  ## Linux
   - '+.mirrors.ustc.edu.cn'
   - '+.tuna.tsinghua.edu.cn'
   - 'arch-mirror.wtako.net'
@@ -12,11 +14,7 @@ payload:
   - 'download.videolan.org'
   - 'download.virtualbox.org'
   - 'free.nchc.org.tw'
-  - '+.ghproxy.com'
-  - '+.ghproxy.net'
-  - '+.gitclone.com'
   - 'hkg.mirror.rackspace.com'
-  - 'jsdelivr.b-cdn.net'
   - 'mirror-hk.koddos.net'
   - 'mirror.archlinux.tw'
   - 'mirror.azure.cn'
@@ -57,11 +55,21 @@ payload:
   - 'mirrors.yun-idc.com'
   - 'mirrors.zju.edu.cn'
   - 'opentuna.cn'
+  ## OPNsense
   - 'opnsense.aivian.org'
+  ## Pypi
   - 'pypi.douban.com'
   - 'pypi.hustunique.com'
   - 'pypi.sdutlinux.org'
+  ## Github
   - 'raw.fastgit.ixmu.net'
   - 'raw.iqiq.io'
+  - '+.ghproxy.com'
+  - '+.ghproxy.net'
+  - '+.gitclone.com'
+  ## Vscode
   - 'vscode.cdn.azure.cn'
-  - 'mirror.xtom.com.hk'
+  ## Docker
+  - '+.docker.io'
+  - 'registry.hub.docker.com'
+  - 'dockerproxy.com'
