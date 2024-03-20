@@ -24,6 +24,7 @@ payload:
   - DOMAIN-SUFFIX,grctech.com
   - DOMAIN-SUFFIX,yjs-cdn.com
   - DOMAIN-SUFFIX,freenom.com
+  - DOMAIN-SUFFIX,seedpeer.net
   - DOMAIN-SUFFIX,teracloud.jp
   - DOMAIN-SUFFIX,crowdsec.net
   - DOMAIN-SUFFIX,qweather.com
@@ -42,4 +43,4 @@ payload:
   - DOMAIN-SUFFIX,openweathermap.org
   - DOMAIN-SUFFIX,msftconnecttest.com
   - DOMAIN-SUFFIX,services.mozilla.com
-  - IP-CIDR,45.11.45.11/32
+  - IP-CIDR,45.11.45.11/32,no-resolve
