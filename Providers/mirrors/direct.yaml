@@ -67,6 +67,8 @@ payload:
   - '+.ghproxy.com'
   - '+.ghproxy.net'
   - '+.gitclone.com'
+  - '+.scholar.eu.org'
+  - '+.scholar.rr.nu'
   ## Vscode
   - 'vscode.cdn.azure.cn'
   ## Docker
