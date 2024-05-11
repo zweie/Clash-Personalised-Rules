@@ -24,12 +24,14 @@ payload:
   - DOMAIN-SUFFIX,grctech.com
   - DOMAIN-SUFFIX,yjs-cdn.com
   - DOMAIN-SUFFIX,freenom.com
+  - DOMAIN-SUFFIX,manhuadb.com
   - DOMAIN-SUFFIX,seedpeer.net
   - DOMAIN-SUFFIX,teracloud.jp
   - DOMAIN-SUFFIX,crowdsec.net
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,dsrkafuu.net
+  - DOMAIN-SUFFIX,manhuacdn.com
   - DOMAIN-SUFFIX,itorrents.org
   - DOMAIN-SUFFIX,avantstar.com
   - DOMAIN-SUFFIX,kaspersky.com
