@@ -4,7 +4,6 @@ payload:
   - DOMAIN,coda.world
   - DOMAIN,foxirj.com
   - DOMAIN,mangabz.com
-  - DOMAIN,sb.adtidy.org
   - DOMAIN,ping.nextdns.io
   - DOMAIN,shenxiaojian.com
   - DOMAIN-SUFFIX,grc.com
@@ -17,6 +16,8 @@ payload:
   - DOMAIN-SUFFIX,yubico.com
   - DOMAIN-SUFFIX,btcache.me
   - DOMAIN-SUFFIX,zanimg.com
+  - DOMAIN-SUFFIX,diygod.dev
+  - DOMAIN-SUFFIX,anti-ad.net
   - DOMAIN-SUFFIX,vomicmh.com
   - DOMAIN-SUFFIX,hamibot.com
   - DOMAIN-SUFFIX,baozimh.com
@@ -24,6 +25,7 @@ payload:
   - DOMAIN-SUFFIX,grctech.com
   - DOMAIN-SUFFIX,yjs-cdn.com
   - DOMAIN-SUFFIX,freenom.com
+  - DOMAIN-SUFFIX,baozicdn.com
   - DOMAIN-SUFFIX,manhuadb.com
   - DOMAIN-SUFFIX,seedpeer.net
   - DOMAIN-SUFFIX,teracloud.jp
