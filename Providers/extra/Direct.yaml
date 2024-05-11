@@ -7,10 +7,6 @@ payload:
   - DOMAIN,sb.adtidy.org
   - DOMAIN,ping.nextdns.io
   - DOMAIN,shenxiaojian.com
-  - DOMAIN,ocsp.globalsign.com
-  - DOMAIN,support.mozilla.org
-  - DOMAIN,profile.accounts.firefox.com
-  - DOMAIN,vscode-sync.trafficmanager.net
   - DOMAIN-SUFFIX,grc.com
   - DOMAIN-SUFFIX,pixiv.re
   - DOMAIN-SUFFIX,nixos.org
@@ -47,5 +43,4 @@ payload:
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,openweathermap.org
   - DOMAIN-SUFFIX,msftconnecttest.com
-  - DOMAIN-SUFFIX,services.mozilla.com
   - IP-CIDR,45.11.45.11/32,no-resolve

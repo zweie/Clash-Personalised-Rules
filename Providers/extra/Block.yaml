@@ -5,6 +5,7 @@ payload:
   - DOMAIN,link.m.163.com
   - DOMAIN,datapipeline.logitech.io
   - DOMAIN,updates.ghub.logitechg.com
+  - DOMAIN-SUFFIX,uuxs.com
   - DOMAIN-SUFFIX,abiir.top
   - DOMAIN-SUFFIX,mi-img.com
   - DOMAIN-SUFFIX,duokan.com
