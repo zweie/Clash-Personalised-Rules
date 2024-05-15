@@ -21,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,anti-ad.net
   - DOMAIN-SUFFIX,vomicmh.com
   - DOMAIN-SUFFIX,hamibot.com
+  - DOMAIN-SUFFIX,obsidian.md
   - DOMAIN-SUFFIX,baozimh.com
   - DOMAIN-SUFFIX,webmota.com
   - DOMAIN-SUFFIX,grctech.com
@@ -41,7 +42,6 @@ payload:
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,syncthing.net
   - DOMAIN-SUFFIX,gfmhtupian.com
-  - DOMAIN-SUFFIX,pixeldrain.com
   - DOMAIN-SUFFIX,libtorrent.org
   - DOMAIN-SUFFIX,wa2analysis.com
   - DOMAIN-SUFFIX,qbittorrent.org
