@@ -26,4 +26,3 @@ payload:
     - PROCESS-NAME,qbittorrent
     - PROCESS-NAME,cloudflared
     - PROCESS-NAME,baidunetdisk
-    - PROCESS-NAME,telegram-deskto
