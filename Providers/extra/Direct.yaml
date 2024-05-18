@@ -8,6 +8,7 @@ payload:
   - DOMAIN,shenxiaojian.com
   - DOMAIN-SUFFIX,grc.com
   - DOMAIN-SUFFIX,pixiv.re
+  - DOMAIN-SUFFIX,pockyt.io
   - DOMAIN-SUFFIX,nixos.org
   - DOMAIN-SUFFIX,ssavr.com
   - DOMAIN-SUFFIX,tchncs.de
@@ -27,6 +28,7 @@ payload:
   - DOMAIN-SUFFIX,grctech.com
   - DOMAIN-SUFFIX,yjs-cdn.com
   - DOMAIN-SUFFIX,freenom.com
+  - DOMAIN-SUFFIX,yuansfer.com
   - DOMAIN-SUFFIX,baozicdn.com
   - DOMAIN-SUFFIX,manhuadb.com
   - DOMAIN-SUFFIX,seedpeer.net
