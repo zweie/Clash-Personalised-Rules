@@ -1,28 +1,8 @@
 name: 额外的规则
-desc: 后续增加的规则
+desc: 2024/05/25
 
 rules:
-  - "DOMAIN,dl.google.com,节点选择"
-  - "DOMAIN,itorrents.org,海外负载均衡"
-  - "DOMAIN,rutracker.org,海外负载均衡"
-  - "DOMAIN,app-measurement.com,碧蓝档案"
-  - "DOMAIN,h-adashx.ut.taobao.com,全球直连"
   - "DOMAIN,dns.weixin.qq.com.cn,REJECT,no-resolve"
-  - "DOMAIN,passport-client.bitcomet.com,海外负载均衡"
-  - "DOMAIN-SUFFIX,1lib.at,节点选择"
-  - "DOMAIN-SUFFIX,dmm.co.jp,日本节点"
-  - "DOMAIN-SUFFIX,proton.me,海外最速"
-  - "DOMAIN-SUFFIX,vercel.app,自动选择"
-  - "DOMAIN-SUFFIX,quanben.io,海外最速"
-  - "DOMAIN-SUFFIX,clmclm.com,海外最速"
-  - "DOMAIN-SUFFIX,pikpak.com,海外最速"
-  - "DOMAIN-SUFFIX,opnsense.org,海外最速"
-  - "DOMAIN-SUFFIX,tutanota.com,海外最速"
-  - "DOMAIN-SUFFIX,wikawika.xyz,海外最速"
-  - "DOMAIN-SUFFIX,mypikpak.com,海外最速"
-  - "DOMAIN-SUFFIX,xytalk.net,海外负载均衡"
-  - "DOMAIN-SUFFIX,cloudfront.net,碧蓝档案"
-  - "DOMAIN-SUFFIX,fileshot.net,海外负载均衡"
   - "DOMAIN-SUFFIX,xuexi616.com,REJECT,no-resolve"
   - "IP-CIDR,180.76.76.76/32,REJECT"
   - "IP-CIDR,114.114.114.110/32,REJECT"
