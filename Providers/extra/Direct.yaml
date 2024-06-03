@@ -7,9 +7,9 @@ payload:
   - DOMAIN,ping.nextdns.io
   - DOMAIN,shenxiaojian.com
   - DOMAIN-SUFFIX,grc.com
+  - DOMAIN-SUFFIX,dmhy.org
   - DOMAIN-SUFFIX,pixiv.re
   - DOMAIN-SUFFIX,pockyt.io
-  - DOMAIN-SUFFIX,nixos.org
   - DOMAIN-SUFFIX,ssavr.com
   - DOMAIN-SUFFIX,tchncs.de
   - DOMAIN-SUFFIX,gfxmh.com
@@ -35,12 +35,11 @@ payload:
   - DOMAIN-SUFFIX,yuansfer.com
   - DOMAIN-SUFFIX,baozicdn.com
   - DOMAIN-SUFFIX,manhuadb.com
-  - DOMAIN-SUFFIX,seedpeer.net
   - DOMAIN-SUFFIX,teracloud.jp
   - DOMAIN-SUFFIX,crowdsec.net
   - DOMAIN-SUFFIX,qweather.com
-  - DOMAIN-SUFFIX,msftncsi.com
   - DOMAIN-SUFFIX,dsrkafuu.net
+  - DOMAIN-SUFFIX,voidtools.com
   - DOMAIN-SUFFIX,smart2pay.com
   - DOMAIN-SUFFIX,manhuatai.org
   - DOMAIN-SUFFIX,manhuacdn.com
@@ -48,7 +47,6 @@ payload:
   - DOMAIN-SUFFIX,avantstar.com
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,syncthing.net
-  - DOMAIN-SUFFIX,share.dmhy.org
   - DOMAIN-SUFFIX,gfmhtupian.com
   - DOMAIN-SUFFIX,libtorrent.org
   - DOMAIN-SUFFIX,libreoffice.org
@@ -57,5 +55,5 @@ payload:
   - DOMAIN-SUFFIX,infini-cloud.net
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,openweathermap.org
-  - DOMAIN-SUFFIX,msftconnecttest.com
+  - DOMAIN-SUFFIX,documentfoundation.org
   - IP-CIDR,45.11.45.11/32,no-resolve
