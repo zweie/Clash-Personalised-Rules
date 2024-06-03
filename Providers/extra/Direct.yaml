@@ -28,6 +28,7 @@ payload:
   - DOMAIN-SUFFIX,baozimh.com
   - DOMAIN-SUFFIX,webmota.com
   - DOMAIN-SUFFIX,grctech.com
+  - DOMAIN-SUFFIX,gnucash.org
   - DOMAIN-SUFFIX,yjs-cdn.com
   - DOMAIN-SUFFIX,freenom.com
   - DOMAIN-SUFFIX,saucenao.com
@@ -47,8 +48,10 @@ payload:
   - DOMAIN-SUFFIX,avantstar.com
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,syncthing.net
+  - DOMAIN-SUFFIX,share.dmhy.org
   - DOMAIN-SUFFIX,gfmhtupian.com
   - DOMAIN-SUFFIX,libtorrent.org
+  - DOMAIN-SUFFIX,libreoffice.org
   - DOMAIN-SUFFIX,wa2analysis.com
   - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,infini-cloud.net
