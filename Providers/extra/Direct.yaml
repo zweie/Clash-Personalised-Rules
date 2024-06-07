@@ -9,6 +9,7 @@ payload:
   - DOMAIN-SUFFIX,grc.com
   - DOMAIN-SUFFIX,dmhy.org
   - DOMAIN-SUFFIX,pixiv.re
+  - DOMAIN-SUFFIX,mhgui.com
   - DOMAIN-SUFFIX,pockyt.io
   - DOMAIN-SUFFIX,ssavr.com
   - DOMAIN-SUFFIX,tchncs.de
@@ -39,6 +40,8 @@ payload:
   - DOMAIN-SUFFIX,crowdsec.net
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,dsrkafuu.net
+  - DOMAIN-SUFFIX,manhuagui.com
+  - DOMAIN-SUFFIX,rectify11.net
   - DOMAIN-SUFFIX,voidtools.com
   - DOMAIN-SUFFIX,smart2pay.com
   - DOMAIN-SUFFIX,manhuatai.org
