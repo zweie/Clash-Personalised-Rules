@@ -17,6 +17,7 @@ payload:
     - PROCESS-NAME,zerotier-one_x64.exe
     - PROCESS-NAME,steamcommunity_302.exe
     - PROCESS-NAME,steamcommunity_302.caddy
+    - PROCESS-NAME,pikpakcli.exe
     # Linux
     - PROCESS-NAME,rclone
     - PROCESS-NAME,chronyd
@@ -27,3 +28,4 @@ payload:
     - PROCESS-NAME,cloudflared
     - PROCESS-NAME,baidunetdisk
     - PROCESS-NAME,localsend_app
+    - PROCESS-NAME,pikpakcli
