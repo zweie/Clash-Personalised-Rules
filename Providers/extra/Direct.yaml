@@ -43,6 +43,7 @@ payload:
   - DOMAIN-SUFFIX,crowdsec.net
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,dsrkafuu.net
+  - DOMAIN-SUFFIX,img.qv35.com
   - DOMAIN-SUFFIX,manhuagui.com
   - DOMAIN-SUFFIX,rectify11.net
   - DOMAIN-SUFFIX,voidtools.com
@@ -53,6 +54,7 @@ payload:
   - DOMAIN-SUFFIX,avantstar.com
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,syncthing.net
+  - DOMAIN-SUFFIX,pic.liesys.com
   - DOMAIN-SUFFIX,gfmhtupian.com
   - DOMAIN-SUFFIX,libtorrent.org
   - DOMAIN-SUFFIX,libreoffice.org
