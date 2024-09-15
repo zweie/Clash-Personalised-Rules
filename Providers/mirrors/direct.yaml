@@ -71,7 +71,3 @@ payload:
   - '+.scholar.rr.nu'
   ## Vscode
   - 'vscode.cdn.azure.cn'
-  ## Docker
-  - '+.docker.io'
-  - 'registry.hub.docker.com'
-  - 'dockerproxy.com'
