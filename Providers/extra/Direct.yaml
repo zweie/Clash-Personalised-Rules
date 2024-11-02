@@ -65,4 +65,3 @@ payload:
   - DOMAIN-SUFFIX,openweathermap.org
   - DOMAIN-SUFFIX,magnet2torrent.com
   - DOMAIN-SUFFIX,documentfoundation.org
-  - IP-CIDR,45.11.45.11/32,no-resolve
