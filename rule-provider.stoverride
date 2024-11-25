@@ -1,431 +1,76 @@
 name: Rule Provider
-desc: Rule Provider
+desc: 2024/11/26
 
 rule-providers: #!replace
-  
-  LocalAreaNetwork:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/LocalAreaNetwork.yaml"
-    path: "./ruleset/Private/LocalAreaNetwork.yaml"
-    interval: 86400
 
   anti-AD:
     type: http
+    format: yaml
     behavior: domain
     url: "https://anti-ad.net/clash.yaml"
     path: "./ruleset/AD/anti-AD.yaml"
     interval: 86400
   
-  BanAD:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanAD.yaml"
-    path: "./ruleset/AD/BanAD.yaml"
-    interval: 86400
-  
-  BanProgramAD:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/BanProgramAD.yaml"
-    path: "./ruleset/AD/BanProgramAD.yaml"
-    interval: 86400
-  
-  Youku:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Media/Youku.yaml"
-    path: "./ruleset/AD/Youku.yaml"
-    interval: 86400
-  
-  IQIYI:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Media/IQIYI.yaml"
-    path: "./ruleset/AD/IQIYI.yaml"
-    interval: 86400
-  
-  Apple(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Apple.yaml"
-    path: "./ruleset/Apple/Apple-ACL4SSR.yaml"
-    interval: 86400
-  
-  Apple(By lhie1):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Apple.yaml"
-    path: "./ruleset/Apple/Apple-lhie1.yaml"
-    interval: 86400
-  
-  GoogleFCM:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleFCM.yaml"
-    path: "./ruleset/Google/GoogleFCM.yaml"
-    interval: 86400
-  
-  GoogleCN:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/GoogleCN.yaml"
-    path: "./ruleset/Google/GoogleCN.yaml"
-    interval: 86400
-  
-  Google:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Google.yaml"
-    path: "./ruleset/Google/Google-classical.yaml"
-    interval: 86400
-  
-  YouTube(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/YouTube.yaml"
-    path: "./ruleset/YouTube/YouTube-ACL4SSR.yaml"
-    interval: 86400
-  
-  YouTube Music:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Media/YouTube%20Music.yaml"
-    path: "./ruleset/YouTube/YouTube Music.yaml"
-    interval: 86400
-  
-  YouTube(By lhie1):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Media/YouTube.yaml"
-    path: "./ruleset/YouTube/YouTube-lhie1.yaml"
-    interval: 86400
-  
-  Telegram(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Telegram.yaml"
-    path: "./ruleset/Telegram/Telegram-ACL4SSR.yaml"
-    interval: 86400
-  
-  OneDrive(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/OneDrive.yaml"
-    path: "./ruleset/Microsoft/OneDrive-ACL4SSR.yaml"
-    interval: 86400
-  
-  微软服务:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Microsoft.yaml"
-    path: "./ruleset/Microsoft/Microsoft.yaml"
-    interval: 86400
-  
-  Microsoft(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Microsoft.yaml"
-    path: "./ruleset/Microsoft/Microsoft-ACL4SSR.yaml"
-    interval: 86400
-  
-  SteamCN:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/SteamCN.yaml"
-    path: "./ruleset/Game/SteamCN.yaml"
-    interval: 86400
-  
-  Epic:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Epic.yaml"
-    path: "./ruleset/Game/Epic.yaml"
-    interval: 86400
-  
-  Sony:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Sony.yaml"
-    path: "./ruleset/Game/Sony.yaml"
-    interval: 86400
-  
-  Nintendo:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Nintendo.yaml"
-    path: "./ruleset/Game/Nintendo.yaml"
-    interval: 86400
-  
-  Blizzard:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Blizzard.yaml"
-    path: "./ruleset/Game/Blizzard.yaml"
-    interval: 86400
-  
-  Xbox:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Xbox.yaml"
-    path: "./ruleset/Game/Xbox.yaml"
-    interval: 86400
-  
-  Bahamut(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bahamut.yaml"
-    path: "./ruleset/Bahamut/Bahamut-ACL4SSR.yaml"
-    interval: 86400
-  
-  ProxyMedia:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyMedia.yaml"
-    path: "./ruleset/ProxyMedia/ProxyMedia.yaml"
-    interval: 86400
-  
-  AbemaTV(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/AbemaTV.yaml"
-    path: "./ruleset/ProxyMedia/AbemaTV-ACL4SSR.yaml"
-    interval: 86400
-  
-  DisneyPlus(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/DisneyPlus.yaml"
-    path: "./ruleset/ProxyMedia/DisneyPlus-ACL4SSR.yaml"
-    interval: 86400
-  
-  EHGallery:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/EHGallery.yaml"
-    path: "./ruleset/ProxyMedia/EHGallery.yaml"
-    interval: 86400
-  
-  Netflix(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Netflix.yaml"
-    path: "./ruleset/ProxyMedia/Netflix-ACL4SSR.yaml"
-    interval: 86400
-  
-  Porn:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Porn.yaml"
-    path: "./ruleset/ProxyMedia/Porn.yaml"
-    interval: 86400
-  
-  国外流媒体合集:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/DivineEngine/Profiles/master/Clash/RuleSet/StreamingMedia/Streaming.yaml"
-    path: "./ruleset/ProxyMedia/Streaming.yaml"
-    interval: 86400
-  
-  HBO(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/HBO.yaml"
-    path: "./ruleset/ProxyMedia/HBO-ACL4SSR.yaml"
-    interval: 86400
-  
-  Spotify(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Spotify.yaml"
-    path: "./ruleset/ProxyMedia/Spotify-ACL4SSR.yaml"
-    interval: 86400
-  
-  Pornhub(By lhie1):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Media/Pornhub.yaml"
-    path: "./ruleset/ProxyMedia/Pornhub-lhie1.yaml"
-    interval: 86400
-  
-  Spotify(By lhie1):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Media/Spotify.yaml"
-    path: "./ruleset/ProxyMedia/Spotify-lhie1.yaml"
-    interval: 86400
-  
-  NetEaseMusic:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/NetEaseMusic.yaml"
-    path: "./ruleset/DirectMedia/NetEaseMusic.yaml"
-    interval: 86400
-  
-  BilibiliHMT:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/BilibiliHMT.yaml"
-    path: "./ruleset/DirectMedia/BilibiliHMT.yaml"
-    interval: 86400
-  
-  ChinaMedia:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaMedia.yaml"
-    path: "./ruleset/DirectMedia/ChinaMedia.yaml"
-    interval: 86400
-  
-  Bilibili(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Bilibili.yaml"
-    path: "./ruleset/DirectMedia/Bilibili-ACL4SSR.yaml"
-    interval: 86400
-  
-  Netease Music:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Media/Netease%20Music.yaml"
-    path: "./ruleset/DirectMedia/Netease Music.yaml"
-    interval: 86400
-  
-  Bilibili:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Media/Bilibili.yaml"
-    path: "./ruleset/DirectMedia/Bilibili.yaml"
-    interval: 86400
-
-  applications:
-    type: http
-    behavior: classical
-    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
-    path: ./ruleset/applications.yaml
-    interval: 86400
-  
-  ProxyGFWlist:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ProxyGFWlist.yaml"
-    path: "./ruleset/ProxyGFWlist.yaml"
-    interval: 86400
-  
-  ChinaDomain:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/ChinaDomain.yaml"
-    path: "./ruleset/ChinaDomain.yaml"
-    interval: 86400
-  
-  放行规则-ACL4SSR(建议置顶并直连):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/UnBan.yaml"
-    path: "./ruleset/UnBan.yaml"
-    interval: 86400
-  
-  Speedtest:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Speedtest.yaml"
-    path: "./ruleset/Speedtest.yaml"
-    interval: 86400
-  
-  Adobe:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Adobe.yaml"
-    path: "./ruleset/Adobe.yaml"
-    interval: 86400
-  
-  Scholar(By ACL4SSR):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Scholar.yaml"
-    path: "./ruleset/Scholar-ACL4SSR.yaml"
-    interval: 86400
-  
-  Developer:
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Providers/Ruleset/Developer.yaml"
-    path: "./ruleset/Developer.yaml"
-    interval: 86400
-
-  国外常用网站合集(By lhie1):
-    type: http
-    behavior: classical
-    url: "https://ghproxy.net/https://raw.githubusercontent.com/dler-io/Rules/master/Clash/Provider/Proxy.yaml"
-    path: "./ruleset/Proxy-classical.yaml"
-    interval: 86400
-  
   Tracker_IP:
     type: http
+    format: yaml
     behavior: ipcidr
-    url: "https://fastly.jsdelivr.net/gh/zweie/Clash-Personalised-Rules@rules/Providers/Trackers/trackers_all_ip.yaml"
+    url: "https://raw.githubusercontent.com/zweie/Clash-Personalised-Rules/rules/Providers/Trackers/trackers_all_ip.yaml"
     path: "./ruleset/Tracker/Tracker_IP.yaml"
     interval: 86400
 
   Tracker_Domain:
     type: http
+    format: yaml
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/zweie/Clash-Personalised-Rules@rules/Providers/Trackers/trackers_all.yaml"
+    url: "https://raw.githubusercontent.com/zweie/Clash-Personalised-Rules/rules/Providers/Trackers/trackers_all.yaml"
     path: "./ruleset/Tracker/Tracker_Domain.yaml"
-    interval: 86400
-
-  Tracker_Black:
-    type: http
-    behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/zweie/Clash-Personalised-Rules@rules/Providers/Trackers/blacklist.yaml"
-    path: "./ruleset/Tracker/Tracker_Black.yaml"
     interval: 86400
 
   DOH_Direct:
     type: http
+    format: yaml
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/zweie/Clash-Personalised-Rules@rules/Providers/DNS/doh_able.yaml"
+    url: "https://raw.githubusercontent.com/zweie/Clash-Personalised-Rules/rules/Providers/DNS/doh_able.yaml"
     path: "./ruleset/DOH/DOH_Direct.yaml"
     interval: 86400
 
   DOH_Proxy:
     type: http
+    format: yaml
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/zweie/Clash-Personalised-Rules@rules/Providers/DNS/doh_unable.yaml"
+    url: "https://raw.githubusercontent.com/zweie/Clash-Personalised-Rules/rules/Providers/DNS/doh_unable.yaml"
     path: "./ruleset/DOH/DOH_Proxy.yaml"
     interval: 86400
 
   Mirrors_Direct:
     type: http
+    format: yaml
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/zweie/Clash-Personalised-Rules@rules/Providers/mirrors/direct.yaml"
+    url: "https://raw.githubusercontent.com/zweie/Clash-Personalised-Rules/rules/Providers/mirrors/direct.yaml"
     path: "./ruleset/Mirrors/Mirrors_Direct.yaml"
     interval: 86400
 
   Mirrors_Proxy:
     type: http
+    format: yaml
     behavior: domain
-    url: "https://fastly.jsdelivr.net/gh/zweie/Clash-Personalised-Rules@rules/Providers/mirrors/proxy.yaml"
+    url: "https://raw.githubusercontent.com/zweie/Clash-Personalised-Rules/rules/Providers/mirrors/proxy.yaml"
     path: "./ruleset/Mirrors/Mirrors_Proxy.yaml"
     interval: 86400
 
   Extra_Direct:
     type: http
+    format: yaml
     behavior: classical
-    url: "https://fastly.jsdelivr.net/gh/zweie/Clash-Personalised-Rules@rules/Providers/extra/Direct.yaml"
+    url: "https://raw.githubusercontent.com/zweie/Clash-Personalised-Rules/rules/Providers/extra/Direct.yaml"
     path: "./ruleset/Extra/Extra_Direct.yaml"
     interval: 86400
 
   Extra_Block:
     type: http
+    format: yaml
     behavior: classical
-    url: "https://fastly.jsdelivr.net/gh/zweie/Clash-Personalised-Rules@rules/Providers/extra/Block.yaml"
+    url: "https://raw.githubusercontent.com/zweie/Clash-Personalised-Rules/rules/Providers/extra/Block.yaml"
     path: "./ruleset/Extra/Extra_Block.yaml"
-    interval: 86400
-
-  Process-Direct:
-    type: http
-    behavior: classical
-    url: "https://gcore.jsdelivr.net/gh/zweie/Clash-Personalised-Rules@rules/Providers/Process/Process_Direct.yaml"
-    path: "./ruleset/Process/Process_Direct.yaml"
     interval: 86400

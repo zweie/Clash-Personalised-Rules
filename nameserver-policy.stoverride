@@ -1,5 +1,5 @@
 name: 域名解析策略
-desc: 2024/02/18
+desc: 2024/11/26
 
 dns:
     nameserver-policy:
@@ -46,4 +46,7 @@ dns:
         '+.citic'                     : 'https://1.12.12.12/dns-query'
         '+.ecitic.com'                : 'https://1.12.12.12/dns-query'
         '+.citicbank.com'             : 'https://1.12.12.12/dns-query'
+        '+.cnzz.com'                  : 'https://1.12.12.12/dns-query'
+        '+.puata.info'                : 'https://1.12.12.12/dns-query'
         '+.map.baidu.com'             : 'https://1.12.12.12/dns-query'
+        '+.getui.com'                 : 'https://1.12.12.12/dns-query'

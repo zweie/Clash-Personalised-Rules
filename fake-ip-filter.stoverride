@@ -1,5 +1,5 @@
 name: Fake-IP-filter
-desc: 2024/02/18
+desc: 2024/11/26
 
 dns:
     fake-ip-filter:
@@ -27,12 +27,12 @@ dns:
         - '+.biliapi.*'
         - '+.biligame.com'
         - '+.biliimg.com'
+        - '+.jd.com'
+        - '+.360buyimg.com'
         - '+.qq.com'
         - '+.tencent.com'
         - '+.gtimg.com'
         - '+.weixinbridge.com'
-        - '+.jd.com'
-        - '+.360buyimg.com'
         - '+.coolapk.com'
         - '+.zepp.com'
         - '+.pddpic.com'
@@ -46,4 +46,7 @@ dns:
         - '+.citic'
         - '+.ecitic.com'
         - '+.citicbank.com'
+        - '+.cnzz.com'
+        - '+.puata.info'
         - '+.map.baidu.com'
+        - '+.getui.com'
