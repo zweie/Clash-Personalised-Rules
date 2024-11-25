@@ -1,31 +1,29 @@
 payload:
     # Windows
-    - PROCESS-NAME,xray.exe
-    - PROCESS-NAME,wxray.exe
-    - PROCESS-NAME,clash.exe
-    - PROCESS-NAME,kopia.exe
-    - PROCESS-NAME,Tabby.exe
-    - PROCESS-NAME,v2ray.exe
-    - PROCESS-NAME,rclone.exe
-    - PROCESS-NAME,WindTerm.exe
     - PROCESS-NAME,explorer.exe
-    - PROCESS-NAME,OneDrive.exe
-    - PROCESS-NAME,syncthing.exe
-    - PROCESS-NAME,cloudflared.exe
-    - PROCESS-NAME,qbittorrent.exe
-    - PROCESS-NAME,localsend_app.exe
+    - PROCESS-NAME,Tabby.exe
+    - PROCESS-NAME,WindTerm.exe
     - PROCESS-NAME,zerotier-one_x64.exe
-    - PROCESS-NAME,steamcommunity_302.exe
-    - PROCESS-NAME,steamcommunity_302.caddy
-    - PROCESS-NAME,pikpakcli.exe
+    - PROCESS-NAME-REGEX,clash.*
+    - PROCESS-NAME-REGEX,steamcommunity_302.*
+
     # Linux
-    - PROCESS-NAME,rclone
-    - PROCESS-NAME,chronyd
-    - PROCESS-NAME,onedrive
-    - PROCESS-NAME,syncthing
-    - PROCESS-NAME,kdeconnectd
-    - PROCESS-NAME,qbittorrent
-    - PROCESS-NAME,cloudflared
     - PROCESS-NAME,baidunetdisk
-    - PROCESS-NAME,localsend_app
-    - PROCESS-NAME,pikpakcli
+    - PROCESS-NAME,chronyd
+    - PROCESS-NAME,kdeconnectd
+
+    # 
+    - PROCESS-NAME-REGEX,.*xray.*
+    - PROCESS-NAME-REGEX,cloudflared.*
+    - PROCESS-NAME-REGEX,kopia.*
+    - PROCESS-NAME-REGEX,localsend_app.*
+    - PROCESS-NAME-REGEX,pikpakcli.*
+    - PROCESS-NAME-REGEX,rclone.*
+    - PROCESS-NAME-REGEX,shadowsocks.*
+    - PROCESS-NAME-REGEX,sing-box.*
+    - PROCESS-NAME-REGEX,syncthing.*
+    - PROCESS-NAME-REGEX,v2ray.*
+
+    - PROCESS-NAME-REGEX,(?i)bitcomet.*
+    - PROCESS-NAME-REGEX,(?i)onedrive.*
+    - PROCESS-NAME-REGEX,(?i)qbittorrent.*
