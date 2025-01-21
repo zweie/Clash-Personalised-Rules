@@ -10,6 +10,7 @@ payload:
   - DOMAIN,shenxiaojian.com
   - DOMAIN,images.zaimanhua.com
   - DOMAIN-SUFFIX,grc.com
+  - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,mhgui.com
   - DOMAIN-SUFFIX,pockyt.io
   - DOMAIN-SUFFIX,ssavr.com
