@@ -50,3 +50,5 @@ dns:
         - '+.puata.info'
         - '+.map.baidu.com'
         - '+.getui.com'
+        - '+.meituan.com'
+        - '+.meituan.net'
