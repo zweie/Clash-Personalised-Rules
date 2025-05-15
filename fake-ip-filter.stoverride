@@ -1,5 +1,5 @@
 name: Fake-IP-filter
-desc: 2024/11/26
+desc: 2025/05/15
 
 dns:
     fake-ip-filter:
@@ -28,6 +28,7 @@ dns:
         - '+.biligame.com'
         - '+.biliimg.com'
         - '+.jd.com'
+        - '+.qianxun.com'
         - '+.360buyimg.com'
         - '+.qq.com'
         - '+.tencent.com'

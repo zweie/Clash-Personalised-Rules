@@ -1,5 +1,5 @@
 name: 域名解析策略
-desc: 2024/11/26
+desc: 2025/05/15
 
 dns:
     nameserver-policy:
@@ -28,6 +28,7 @@ dns:
         '+.biligame.com'           : 'https://1.12.12.12/dns-query'
         '+.biliimg.com'            : 'https://1.12.12.12/dns-query'
         '+.jd.com'                 : 'https://1.12.12.12/dns-query'
+        '+.qianxun.com'            : 'https://1.12.12.12/dns-query'
         '+.360buyimg.com'          : 'https://1.12.12.12/dns-query'
         '+.qq.com'                 : 'https://1.12.12.12/dns-query'
         '+.tencent.com'            : 'https://1.12.12.12/dns-query'
