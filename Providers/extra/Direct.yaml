@@ -61,6 +61,5 @@ payload:
   - DOMAIN-SUFFIX,qbittorrent.org
   - DOMAIN-SUFFIX,infini-cloud.net
   - DOMAIN-SUFFIX,kaspersky-labs.com
-  - DOMAIN-SUFFIX,openweathermap.org
   - DOMAIN-SUFFIX,magnet2torrent.com
   - DOMAIN-SUFFIX,documentfoundation.org
