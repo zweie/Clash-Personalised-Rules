@@ -11,6 +11,7 @@ payload:
   - DOMAIN,images.zaimanhua.com
   - DOMAIN-SUFFIX,grc.com
   - DOMAIN-SUFFIX,linux.do
+  - DOMAIN-SUFFIX,92mh.com
   - DOMAIN-SUFFIX,mhgui.com
   - DOMAIN-SUFFIX,pockyt.io
   - DOMAIN-SUFFIX,ssavr.com
@@ -34,6 +35,7 @@ payload:
   - DOMAIN-SUFFIX,gnucash.org
   - DOMAIN-SUFFIX,yjs-cdn.com
   - DOMAIN-SUFFIX,freenom.com
+  - DOMAIN-SUFFIX,alltucdn.cc
   - DOMAIN-SUFFIX,saucenao.com
   - DOMAIN-SUFFIX,yuansfer.com
   - DOMAIN-SUFFIX,baozicdn.com
@@ -53,6 +55,9 @@ payload:
   - DOMAIN-SUFFIX,avantstar.com
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,syncthing.net
+  - DOMAIN-SUFFIX,baozimhcn.com
+  - DOMAIN-SUFFIX,liumanhua.com
+  - DOMAIN-SUFFIX,rumanhua1.com
   - DOMAIN-SUFFIX,pic.liesys.com
   - DOMAIN-SUFFIX,gfmhtupian.com
   - DOMAIN-SUFFIX,libtorrent.org
