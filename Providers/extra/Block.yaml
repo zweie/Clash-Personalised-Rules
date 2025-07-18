@@ -10,6 +10,7 @@ payload:
   - DOMAIN-SUFFIX,duokan.com
   - DOMAIN-SUFFIX,xuexi616.com
   - DOMAIN-KEYWORD,dns.weixin
+  - DOMAIN-KEYWORD,dns.wechat
   - IP-CIDR,114.114.114.110/32
   - IP-CIDR,114.114.114.114/32
   - IP-CIDR,114.114.114.119/32
