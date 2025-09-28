@@ -11,6 +11,7 @@ payload:
   - DOMAIN,images.zaimanhua.com
   - DOMAIN-SUFFIX,grc.com
   - DOMAIN-SUFFIX,linux.do
+  - DOMAIN-SUFFIX,mhua5.com
   - DOMAIN-SUFFIX,mhgui.com
   - DOMAIN-SUFFIX,pockyt.io
   - DOMAIN-SUFFIX,ssavr.com
