@@ -10,7 +10,11 @@ payload:
   - DOMAIN,shenxiaojian.com
   - DOMAIN,images.zaimanhua.com
   - DOMAIN-SUFFIX,grc.com
+  - DOMAIN-SUFFIX,wsrv.nl
+  - DOMAIN-SUFFIX,kjxb.org
   - DOMAIN-SUFFIX,linux.do
+  - DOMAIN-SUFFIX,lance.moe
+  - DOMAIN-SUFFIX,atami.top
   - DOMAIN-SUFFIX,mhua5.com
   - DOMAIN-SUFFIX,mhgui.com
   - DOMAIN-SUFFIX,pockyt.io
@@ -18,6 +22,7 @@ payload:
   - DOMAIN-SUFFIX,tchncs.de
   - DOMAIN-SUFFIX,gfxmh.com
   - DOMAIN-SUFFIX,lemzf.com
+  - DOMAIN-SUFFIX,utags.link
   - DOMAIN-SUFFIX,gentoo.org
   - DOMAIN-SUFFIX,yubico.com
   - DOMAIN-SUFFIX,btcache.me
@@ -36,6 +41,7 @@ payload:
   - DOMAIN-SUFFIX,yjs-cdn.com
   - DOMAIN-SUFFIX,freenom.com
   - DOMAIN-SUFFIX,alltucdn.cc
+  - DOMAIN-SUFFIX,open-vsx.org
   - DOMAIN-SUFFIX,saucenao.com
   - DOMAIN-SUFFIX,yuansfer.com
   - DOMAIN-SUFFIX,baozicdn.com
@@ -65,4 +71,5 @@ payload:
   - DOMAIN-SUFFIX,infini-cloud.net
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,magnet2torrent.com
+  - DOMAIN-SUFFIX,database-client.com
   - DOMAIN-SUFFIX,documentfoundation.org
