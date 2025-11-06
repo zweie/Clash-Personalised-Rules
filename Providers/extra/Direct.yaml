@@ -41,6 +41,8 @@ payload:
   - DOMAIN-SUFFIX,yjs-cdn.com
   - DOMAIN-SUFFIX,freenom.com
   - DOMAIN-SUFFIX,alltucdn.cc
+  - DOMAIN-SUFFIX,baozimh.org
+  - DOMAIN-SUFFIX,g-mh.online
   - DOMAIN-SUFFIX,open-vsx.org
   - DOMAIN-SUFFIX,saucenao.com
   - DOMAIN-SUFFIX,yuansfer.com
@@ -51,6 +53,7 @@ payload:
   - DOMAIN-SUFFIX,qweather.com
   - DOMAIN-SUFFIX,dsrkafuu.net
   - DOMAIN-SUFFIX,img.qv35.com
+  - DOMAIN-SUFFIX,mangabuddy.in
   - DOMAIN-SUFFIX,manhuagui.com
   - DOMAIN-SUFFIX,rectify11.net
   - DOMAIN-SUFFIX,voidtools.com
@@ -64,6 +67,7 @@ payload:
   - DOMAIN-SUFFIX,baozimhcn.com
   - DOMAIN-SUFFIX,pic.liesys.com
   - DOMAIN-SUFFIX,gfmhtupian.com
+  - DOMAIN-SUFFIX,mgsearcher.com
   - DOMAIN-SUFFIX,libtorrent.org
   - DOMAIN-SUFFIX,libreoffice.org
   - DOMAIN-SUFFIX,wa2analysis.com
