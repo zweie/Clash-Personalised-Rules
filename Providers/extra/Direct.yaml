@@ -12,7 +12,6 @@ payload:
   - DOMAIN-SUFFIX,grc.com
   - DOMAIN-SUFFIX,wsrv.nl
   - DOMAIN-SUFFIX,kjxb.org
-  - DOMAIN-SUFFIX,linux.do
   - DOMAIN-SUFFIX,lance.moe
   - DOMAIN-SUFFIX,atami.top
   - DOMAIN-SUFFIX,mhua5.com
@@ -75,5 +74,6 @@ payload:
   - DOMAIN-SUFFIX,infini-cloud.net
   - DOMAIN-SUFFIX,kaspersky-labs.com
   - DOMAIN-SUFFIX,magnet2torrent.com
+  - DOMAIN-SUFFIX,visualcrossing.com
   - DOMAIN-SUFFIX,database-client.com
   - DOMAIN-SUFFIX,documentfoundation.org
