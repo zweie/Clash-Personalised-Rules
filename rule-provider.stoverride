@@ -1,5 +1,5 @@
 name: Rule Provider
-desc: 2024/11/26
+desc: 2025/12/13
 
 rule-providers: #!replace
 
@@ -41,6 +41,14 @@ rule-providers: #!replace
     behavior: domain
     url: "https://raw.githubusercontent.com/zweie/Clash-Personalised-Rules/rules/Providers/DNS/doh_unable.yaml"
     path: "./ruleset/DOH/DOH_Proxy.yaml"
+    interval: 86400
+
+  DOH_Proxy_IP:
+    type: http
+    format: yaml
+    behavior: ipcidr
+    url: "https://raw.githubusercontent.com/zweie/Clash-Personalised-Rules/rules/Providers/DNS/doh_unable_ip.yaml"
+    path: "./ruleset/DOH/DOH_Proxy_IP.yaml"
     interval: 86400
 
   Mirrors_Direct:

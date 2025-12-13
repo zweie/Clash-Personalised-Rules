@@ -1,9 +1,9 @@
 name: 额外的规则
-desc: 2024/05/25
+desc: 2025/12/13
 
 rules:
-  - "DOMAIN,dns.weixin.qq.com.cn,REJECT,no-resolve"
-  - "DOMAIN-SUFFIX,xuexi616.com,REJECT,no-resolve"
+  - "DOMAIN,dns.weixin.qq.com.cn,REJECT"
+  - "DOMAIN-SUFFIX,xuexi616.com,REJECT"
   - "IP-CIDR,180.76.76.76/32,REJECT"
   - "IP-CIDR,114.114.114.110/32,REJECT"
   - "IP-CIDR,114.114.114.114/32,REJECT"
