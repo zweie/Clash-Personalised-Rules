@@ -21,6 +21,7 @@ payload:
   - DOMAIN-SUFFIX,tchncs.de
   - DOMAIN-SUFFIX,gfxmh.com
   - DOMAIN-SUFFIX,lemzf.com
+  - DOMAIN-SUFFIX,getutm.app
   - DOMAIN-SUFFIX,utags.link
   - DOMAIN-SUFFIX,gentoo.org
   - DOMAIN-SUFFIX,yubico.com
@@ -63,6 +64,7 @@ payload:
   - DOMAIN-SUFFIX,kaspersky.com
   - DOMAIN-SUFFIX,syncthing.net
   - DOMAIN-SUFFIX,baozimhcn.com
+  - DOMAIN-SUFFIX,torrentmac.net
   - DOMAIN-SUFFIX,pic.liesys.com
   - DOMAIN-SUFFIX,gfmhtupian.com
   - DOMAIN-SUFFIX,mgsearcher.com
