@@ -3,9 +3,6 @@ payload:
     - PROCESS-NAME,explorer.exe
     - PROCESS-NAME,Tabby.exe
     - PROCESS-NAME,WindTerm.exe
-    - PROCESS-NAME,zerotier-one_x64.exe
-    - PROCESS-NAME-REGEX,clash.*
-    - PROCESS-NAME-REGEX,steamcommunity_302.*
 
     # Linux
     - PROCESS-NAME,baidunetdisk
@@ -19,10 +16,12 @@ payload:
     - PROCESS-NAME-REGEX,localsend_app.*
     - PROCESS-NAME-REGEX,pikpakcli.*
     - PROCESS-NAME-REGEX,rclone.*
-    - PROCESS-NAME-REGEX,shadowsocks.*
-    - PROCESS-NAME-REGEX,sing-box.*
     - PROCESS-NAME-REGEX,syncthing.*
+    - PROCESS-NAME-REGEX,shadowsocks.*
     - PROCESS-NAME-REGEX,v2ray.*
+    - PROCESS-NAME-REGEX,clash.*
+    - PROCESS-NAME-REGEX,steamcommunity_302.*
+    - PROCESS-NAME-REGEX,zerotier-one.*
 
     - PROCESS-NAME-REGEX,(?i)bitcomet.*
     - PROCESS-NAME-REGEX,(?i)onedrive.*
