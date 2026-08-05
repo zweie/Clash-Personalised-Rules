@@ -1,13 +1,12 @@
 payload:
-    # Windows
     - PROCESS-NAME,explorer.exe
     - PROCESS-NAME,Tabby.exe
     - PROCESS-NAME,WindTerm.exe
 
-    # Linux
     - PROCESS-NAME,baidunetdisk
     - PROCESS-NAME,chronyd
     - PROCESS-NAME,kdeconnectd
+    - PROCESS-NAME,baidupcs-go
 
     # 
     - PROCESS-NAME-REGEX,.*xray.*
